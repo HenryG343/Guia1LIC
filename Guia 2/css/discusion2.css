@@ -1,0 +1,44 @@
+body {
+    background-color: #D0D3D4;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #666;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #111;
+}
+
+#bandera img{
+    width: 20%;
+    height: 40%;
+}
+
+#escudo img{
+    width: 20%;
+    height: 20%;
+}
+
+header, footer{
+    background-color: #666;
+}
+#departamentos{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
