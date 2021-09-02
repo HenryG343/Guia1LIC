@@ -1,0 +1,33 @@
+/*Estilizando las filas*/
+.row{
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+div[class^="col-"]{
+    border: 1px solid #aaa;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: white;
+}
+/*Para celulares */
+body{
+    background-color: #b0bec5;
+}
+/*Para tablets*/
+@media (min-width: 768px){
+    body{
+        background-color: #ffb74d;
+    }
+}
+/*Para computadoras con un ancho menor a 1200px*/
+@media (min-width: 992px){
+    body{
+        background-color: #81c784;
+    }
+}
+/*Para computadoras con un ancho mayor o igual a 1200px*/
+@media (min-width: 1200px){
+    body{
+        background-color: #5c6bc0;
+    }
+}
